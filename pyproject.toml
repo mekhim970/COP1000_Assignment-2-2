@@ -4,6 +4,14 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 
+[tool.poetry]
+name = ["myCurrentAge <19>"]
+myCurrentAge = 19
+print(f"my current age is{myCurrentAge}years.")
+name = ["myCurrentYear <2025>"]
+myCurrentYear = 2025
+print(f"my current year is{myCurrentYear} years.")
+
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.12"
 flask = "^3.0.0"
